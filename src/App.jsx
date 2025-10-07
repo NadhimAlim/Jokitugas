@@ -6,6 +6,7 @@ import WhyUs from "./components/alasan";
 import Layanan from "./components/Layanan";
 import Footer from "./components/Footer";
 import TestimonialPayment from "./components/testi";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Layanan />
       <TestimonialPayment />
       <Footer />
+      
+      <WhatsAppButton />
     </>
   );
 }
