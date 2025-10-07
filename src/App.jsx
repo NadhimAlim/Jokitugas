@@ -5,6 +5,7 @@ import Tugas from "./components/Tugas";
 import WhyUs from "./components/alasan";
 import Layanan from "./components/Layanan";
 import Footer from "./components/Footer";
+import TestimonialPayment from "./components/testi";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Tugas />
       <WhyUs />
       <Layanan />
+      <TestimonialPayment />
       <Footer />
     </>
   );
